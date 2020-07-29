@@ -11,5 +11,6 @@ opencv 3.4
 ![image](images/se_learning_cure.PNG)  
 ![image](images/cbam_learning_cure.PNG)  
 ![image](images/bam_learning_cure.PNG)  
-
+从这四条曲线可知，四个模型的收敛速度和学习能力相差无几，resnet_bam收敛速度偏慢。在前30个batch中，resnet18的收敛曲线趋于平缓，没有任何明显的抖动。
 # visualization
+
