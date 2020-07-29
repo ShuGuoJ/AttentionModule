@@ -6,4 +6,10 @@ pytorch 1.5
 torchvision 0.6    
 opencv 3.4  
 # learning_cure
+四个模型的学习曲线分别如下所示，分别为resnet,resnet_se,resnet_cbam, resnet_bam  
+![image](images/resnet18_learning_cure.PNG)  
+![image](images/se_learning_cure.PNG)  
+![image](images/cbam_learning_cure.PNG)  
+![image](images/bam_learning_cure.PNG)  
+
 # visualization
