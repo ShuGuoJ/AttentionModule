@@ -11,6 +11,6 @@ opencv 3.4
 ![image](images/se_learning_cure.PNG)  
 ![image](images/cbam_learning_cure.PNG)  
 ![image](images/bam_learning_cure.PNG)  
-从这四条曲线可知，四个模型的收敛速度和学习能力相差无几，resnet_bam收敛速度偏慢。在前30个batch中，resnet18的收敛曲线趋于平缓，没有任何明显的抖动。
+从这四条曲线可知，四个模型的收敛速度和学习能力相差无几，resnet_bam收敛速度偏慢。在前30个batch中，resnet18的收敛曲线趋于平缓，没有任何明显的抖动。可能是由于注意力机制的存在，使得其它嵌入注意力机制的模型的泛化能力较差，模型方差大。同时，这也有可能是注意力机制中引入的参数而导致，所以在训练注意力机制模型的时候，我们可以考虑采用正则化或dropout来提高模型的泛化能力，降低模型的方差。
 # visualization
 
